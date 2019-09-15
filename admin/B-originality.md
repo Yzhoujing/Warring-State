@@ -1,0 +1,5 @@
+We declare that the work we have submitted for Stage B of this assignment and all stages before it is entirely our own work, with the following documented exceptions:
+
+NIL
+
+Signed: Ruimin Chu (u5924220), Zhoujing Yang (u6490332), and Xing Meng (u6483085)

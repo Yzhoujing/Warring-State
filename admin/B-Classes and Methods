@@ -1,0 +1,26 @@
+1.class: Board
+method: a.boardRandom: randomly make a board(6x6) which consists 35cards location and 1 location for Zhangyi.
+            input:35 cards   output:35 cards and their location
+        b.recordPosition: record the location of Zhangyi's
+            input: directions and steps   output:current position
+        c.recordFlag: record the flags of every players hold when they collect enough cards
+            input:number of cards hold   output:a flag
+        d.recordCard:create blank array to store the cards players collected.
+            input:output of cardRemove   output:{}consist of cards collected
+        e.gameOver: decide whether to end the game,if the row and column where Zhangyi locate have no more cards,game over.
+            input:zhangyi's location   output: whether game over
+
+2.class:Player
+method: a.moveDirection: choose the direction of player intended to move
+            input: {N,S,W,E}  output:one direction
+        b.moveSteps: choose how many steps will player move
+            input: 0,1,2,3,4,5,direction output:Zhangyi's new location
+        c.sequenPlayer: decide the sequence of players
+            input: number of players  output:new sequence of player
+        d.whoWin:read how many flags does each players hold and decide the winner.
+            input:output of recordFlag for each player   output:the player who own the most flags
+        e.cardRemove:remove the card from the board
+            input:Zhangyi's current and new location and steps ,direction   output:the cards should be removed
+
+
+2a,2b>>1b
