@@ -1,3 +1,6 @@
+# Game Overview
+Multiplayer game, which in turn controls Zhang Yi (black chess pieces) to move, according to the country of Zhang Yi destination chess pieces, collect the pieces belonging to the same country on the path, and then the player with the most national chess pieces in the same country will get the flag of the country. At the end of the game, players with the most flags will win.
+
 # COMP1110 Assignment 2
 
 ## Academic Honesty and Integrity
